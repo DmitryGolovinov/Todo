@@ -30,6 +30,11 @@ header {
     align-items: center;
     flex-direction: row;
     .list {
+        .list-label {
+            position: relative;
+            top: 0;
+        }
+        margin-right: 10px;
         min-width: 10%;
         display: flex;
         justify-content: center;
@@ -45,10 +50,6 @@ header {
 
 ul {
     list-style-type: none;
-}
-
-li {
-    
 }
 
 .action {
@@ -75,4 +76,15 @@ li {
     justify-content: center;
     margin: 20px;
     color: red;
+}
+
+textarea {
+    outline: none;
+    resize: none;
+    overflow: auto;
+}
+
+.general-form {
+    display: flex;
+
 }
